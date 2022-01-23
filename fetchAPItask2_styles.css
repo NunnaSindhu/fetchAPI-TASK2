@@ -1,0 +1,19 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+.mystyle > h1 {
+  text-align: center;
+  text-transform: bold;
+}
+.lead {
+  text-align: center;
+ 
+  }
+input[type="search"] {
+    margin:10px 0;width:100%;
+    border-radius: 5px;
+    padding:5px;
+}
+tbody{
+  text-align:center;
+}
