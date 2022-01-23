@@ -1,6 +1,6 @@
 //select the target element to display the data
 const result = document.querySelector(".result");
-
+result.style.display ="none";
 //for fetching data create getData function
 const url = "https://www.balldontlie.io/api/v1/players";
 const getData = async () => {
@@ -55,6 +55,7 @@ function displayFilteredData(players){
 
 // create displayData function for displaying data
 async function displayData(player) {
+  result.style.display ="inline";
   const playersData = await getData();
   playersData.data.forEach((player) => {
     // console.log(player.first_name);
